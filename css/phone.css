@@ -1,0 +1,98 @@
+*{
+    border: 0;
+}
+body{
+    background: url(https://i.pinimg.com/originals/11/f5/5a/11f55a06c7b17622d6fdd86477782937.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* Navbar */
+#navbar .container .navbar{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin: 1rem;
+}
+#navbar .container .navbar ul li a{
+    font-size: 0.7rem;
+    color: #fff;
+    margin-top: 1rem;
+}
+#navbar .container .navbar ul li a i{
+    display: none;
+}
+#navbar .container .navbar ul li a:hover{
+    background: white;
+    border-radius: 2px;
+}
+/* Home */
+#home{
+    min-height: 30rem;
+}
+#home .container h4{
+    margin: -2rem;
+    font-size: 1rem;
+    font-style: italic;
+}
+#home .container p{
+    font-size: 1rem;
+    margin-top: 15rem;
+}
+#home .img{
+    display: none;
+}
+/* Top 10 */
+#topsongs{
+    min-height: 60rem;
+    background-color: #fff;
+    background-image: url(https://fanart.tv/detailpreview/fanart/music/f59c5520-5f46-4d2c-b2c4-822eabf53419/artistbackground/linkin-park-4de521f409aa2.jpg);
+    background-size: contain;
+    background-position: bottom;
+}
+#topsongs h2{
+    font-size: 1.2rem;
+    color: black;
+    text-shadow: none;
+}
+#topsongs h2 i{
+    color: black;
+}
+#topsongs .toplist{
+    margin-top: 1rem;
+}
+.toplist ul li{
+    margin: 0.1rem;
+    padding: 0.1rem;
+    background-color: black;
+}
+.toplist ul li a{
+    font-size: 1rem;
+}
+/* Members */
+#members{
+    background-image: url(https://fsb.zobj.net/crop.php?r=j_uNbEPMtrrCpmqwNw2vcX6w5-c4u3QFt-p3V8WV7e9fjEIv2MLpP6fKgQwXzuTsX4DMdtaYGY1cFqiEGUHIpZ4jaIqofDMbK43URNPjduZkNpFIi-WFygtH3mzxxj3vJ0Wlqhb1MweiDBpU4EnEC0Mv3wuYdqnDkuibXKXVT57g4Ow5qQU135CeA9PlbZqsEzh5xjHEIbXhIryC);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: auto;
+}
+#members h2{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+#members ul{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem auto;
+}
+/* History */
+#history h2{
+    font-size: 1.5rem;
+}
+#history .container .item .heading{
+    font-size: 1.5rem;
+    text-align: center;
+}
+#history .container .item{
+    font-size: 0.65rem;
+} 

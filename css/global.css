@@ -1,0 +1,34 @@
+/* Text */
+.textcenter{
+    text-align: center;
+}
+.hsmall{
+    font-size: 1.25rem;
+}
+.hmedium{
+    font-size: 1.5rem;
+}
+.hbig{
+    font-size: 2rem;
+}
+/* Colors */
+.mainbg{
+    background-color: #E1E1E1;
+}
+.secondbg{
+    background-color: #181715;
+}
+.white{
+    color: #fff;
+    text-shadow: 2px 2px black;
+}
+.black{
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+.item{
+    padding: 1rem;
+}
+ul{
+    list-style: none;
+}

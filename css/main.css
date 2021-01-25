@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+html{
+    font-family: 'Nunito Sans', sans-serif;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(https://www.wallpapertip.com/wmimgs/83-836667_linkin-park-live-wallpaper-concert-linkin-park-black.png);
+}
+/* Navbar */
+.navbar{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+    height: 70px;
+    /* background-image: linear-gradient(#514E47,#181715); */
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.navbar ul li a{
+    margin: 1rem;
+}
+.navbar ul li a:hover{
+    opacity: 0.7;
+}
+/* Home */
+#home{
+    min-height: 48rem;
+}
+#home .container{
+    margin-top: 8rem;
+}
+#home .container h4{
+    text-align: center;
+    margin: 0.5rem;
+}
+#home .container p{
+    text-align: center;
+    margin: 0.5rem;
+    font-size: 1.4rem;
+}
+#home img{
+    display: flex;
+    margin: 1rem auto;
+    height: 7rem;
+    width: 6rem;
+    opacity: 0.90;
+    position: relative;
+}
+/* Top 10 Songs */
+#topsongs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 75rem;
+    background-image: url(https://thedmvdaily.com/wp-content/uploads/2017/12/concert-wallpapers-30311-7663060.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#topsongs h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+#topsongs i{
+    /* color: #1DB954; */
+    color: white;
+}
+#topsongs .img{
+    height: 4rem;
+    border: 1px black solid;
+}
+.toplist{
+    margin: auto auto;
+}
+.toplist ul{
+    margin: 0.7rem;
+    display: flex;
+    flex-direction: column;
+}
+.toplist ul li{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0.3rem;
+    padding: 0.8rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: #181818;
+}
+.toplist ul li a{
+    margin-left: 0.5rem;
+    font-size: x-large;
+}
+.toplist ul li a:hover{
+    opacity: 0.8;
+}
+.toplist ul li .ds{
+    /* color: #1DB954; */
+    font-size: large;
+    opacity: 0.8;
+}
+/* Members */
+#members{
+    background-image: url(https://www.wallpapers4u.org/wp-content/uploads/linkin_park_row_members_photo-set_height_2173_1920x1080.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 70rem;
+}
+#members .container{
+    display: flex;
+    text-align: center;
+}
+#members h2{
+    font-size: 2.5rem;
+    padding: 1rem 1.5rem;
+}
+#members ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 48rem;
+    padding: 0.5rem;
+}
+#members ul li{
+    margin: 0 2rem;
+}
+#members ul li:hover{
+    background: #4F4F4F;
+    border: 2px solid black;
+    border-radius: 3px;
+    opacity: 0.95;
+}
+/* History */
+#history{
+    margin: 1rem;
+    width: 100%;
+    margin: 1rem auto;
+    background: #181818;;
+}
+#history h2{
+    text-align: center;
+    font-size: 3rem;
+}
+#history .container{
+    width: 80%;
+    margin: 1rem auto;
+}
+#history h2{
+    padding-top: 2rem;
+}
+.hparagraph p{
+    margin: 1rem;
+}
+ 

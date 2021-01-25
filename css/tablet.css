@@ -1,0 +1,28 @@
+body{
+    background: none;
+}
+/* Navbar */
+#navbar .container .navbar{
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+#navbar .container .navbar ul li a{
+    color: black;
+}
+#topsongs .container .toplist ul li .ds{
+    color: #fff;
+}
+#topsongs .container .toplist h2{
+    background-color: white;
+    border: none;
+}
+#topsongs .container .toplist h2 i{
+    color: black;
+}
+#topsongs .container .toplist ul li{
+    width: 100%;
+    display: flex;
+    align-self: center;
+    margin-top: 0.5rem;
+}
